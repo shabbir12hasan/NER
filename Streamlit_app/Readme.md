@@ -5,7 +5,7 @@ Streamlit is a tool designed to ease the life of Data Scientist. It is used to c
 Interactive apps could be created using streamlit which can be hosted over the network and an easy access could be provided to the users.
 
 ### To install streamlit library:
-pip install streamlit
+` pip install streamlit `
 
 Detailed documentaion and description of this library is clearly provided by the streamlit; https://www.streamlit.io/.
 
@@ -19,16 +19,12 @@ More details on this library are available here: https://spacy.io/universe/proje
 The sidebar could be designed using sidebar feature.
 You just have to define a list of items which needs to be displayed in the menu and pass that inside the function.
 
-"""
-	menu = ["Home","NER","Similarity","Spacy_models"]
-	choice = st.sidebar.selectbox("Menu",menu)
-"""
+' menu = ["Home","NER","Similarity","Spacy_models"] '
+' choice = st.sidebar.selectbox("Menu",menu) '
 
 Now, for each menu option, we can define the rules inside the conditional loops. Selecting what needs to be performed.
 
 ### Launching the app:
 Locally this app could be launched using the following command:
-"""
-    streamlit run app.py
-"""
+` streamlit run app.py '
 Here app.py is the name of the app.
